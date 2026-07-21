@@ -217,3 +217,4 @@ Unlike stemming, it considers the word's meaning and grammatical context.
 6. Stemming or Lemmatization
 7. Convert text into numerical features (e.g., Bag of Words, TF-IDF, Word Embeddings)
 8. Train the machine learning or deep learning model
+
