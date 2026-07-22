@@ -80,11 +80,8 @@ Character Tokens:
 ---
 
 # Stop Word Removal
-
 **Definition:**
-
 Stop words are common words that usually do not add significant meaning to a sentence.
-
 Examples:
 
 ```
@@ -104,7 +101,6 @@ for
 Removing stop words reduces noise and improves processing efficiency.
 
 **Example:**
-
 Original:
 
 ```
@@ -120,13 +116,10 @@ learning Natural Language Processing
 ---
 
 # Stemming
-
 **Definition:**
-
 Stemming reduces a word to its **root (stem)** by removing prefixes or suffixes. The resulting stem may not be a valid dictionary word.
 
 **Examples:**
-
 | Original Word | Stem    |
 | ------------- | ------- |
 | Playing       | Play    |
@@ -135,32 +128,26 @@ Stemming reduces a word to its **root (stem)** by removing prefixes or suffixes.
 | Connected     | Connect |
 
 Common stemming algorithms:
-
 * Porter Stemmer
 * Snowball Stemmer
 * Lancaster Stemmer
 
 **Advantages**
-
 * Faster
 * Less computationally expensive
 
 **Disadvantages**
-
 * May produce incorrect or non-dictionary words.
 
 ---
 
 # Lemmatization
-
 **Definition:**
-
 Lemmatization converts a word into its **base (dictionary) form**, known as the **lemma**.
 
 Unlike stemming, it considers the word's meaning and grammatical context.
 
 **Examples:**
-
 | Original Word | Lemma |
 | ------------- | ----- |
 | Running       | Run   |
@@ -169,12 +156,10 @@ Unlike stemming, it considers the word's meaning and grammatical context.
 | Mice          | Mouse |
 
 **Advantages**
-
 * Produces meaningful dictionary words.
 * More accurate than stemming.
 
 **Disadvantages**
-
 * Slower because it uses vocabulary and grammar rules.
 
 ---
@@ -191,7 +176,6 @@ Unlike stemming, it considers the word's meaning and grammatical context.
 ---
 
 # NLTK vs spaCy
-
 | NLTK                                    | spaCy                                           |
 | --------------------------------------- | ----------------------------------------------- |
 | Primarily for learning and research     | Designed for production applications            |
@@ -201,14 +185,12 @@ Unlike stemming, it considers the word's meaning and grammatical context.
 | Better for teaching and experimentation | Better for building real-world NLP applications |
 
 ### Which One Should You Use?
-
 * **Choose NLTK** if you are learning NLP concepts or doing research.
 * **Choose spaCy** if you are building production-ready NLP applications where speed and efficiency are important.
 
 ---
 
 ## NLP Preprocessing Pipeline
-
 1. Collect text data
 2. Convert text to lowercase
 3. Tokenization
@@ -217,4 +199,18 @@ Unlike stemming, it considers the word's meaning and grammatical context.
 6. Stemming or Lemmatization
 7. Convert text into numerical features (e.g., Bag of Words, TF-IDF, Word Embeddings)
 8. Train the machine learning or deep learning model
+
+## CHUNKING
+Chunks: group of words or characters
+Chunking: the process of grouping the words 
+
+### Types of Chunking
+1. Fixed size chunking
+2. Fixed size + Overlapping
+3. Paragraph based
+4. Sentence based
+5. Recursive
+6. Semantic
+7. Page number or standard chunking
+
 
