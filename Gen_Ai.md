@@ -200,17 +200,30 @@ Unlike stemming, it considers the word's meaning and grammatical context.
 7. Convert text into numerical features (e.g., Bag of Words, TF-IDF, Word Embeddings)
 8. Train the machine learning or deep learning model
 
-## CHUNKING
+# CHUNKING
+breaking the larger documents into meaningful data
 Chunks: group of words or characters
-Chunking: the process of grouping the words 
+Chunking is the process of grouping the words 
+
+## uses:
+use chunking before embeddings
 
 ### Types of Chunking
-1. Fixed size chunking
-2. Fixed size + Overlapping
-3. Paragraph based
-4. Sentence based
-5. Recursive
-6. Semantic
-7. Page number or standard chunking
+1. Fixed size chunking    ->100
+ex: grouping the chunks based on fixed size
+2. Fixed size + Overlapping    ->20
+ex: grouping the chunks based on both fixed size+overlapping
+3. Paragraph based     -> "\n\n"
+ex: grouping the chunks where the newlines found in the data
+4. Sentence based     -> ".\n"
+ex: grouping the chunks where the both . and newlines found in the data
+5. Recursive    
+6. Semantic(used for large documents/data)
+7. Page number or structured chunking
 
 
+chunking types which we used in rag architectue
+1. fixed size + overlapping
+2. reccrsive
+3. structure based
+4. semantic chunking
