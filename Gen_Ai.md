@@ -227,3 +227,49 @@ chunking types which we used in rag architectue
 2. reccrsive
 3. structure based
 4. semantic chunking
+
+
+# VECTORIZATION
+numerical representation of chunks or tokens
+
+### Embedding models:
+It's used for sentiment analysis
+step 1: which helps to convert chunks into vectors and this we use mostly for sentence based senarios
+
+where we used this in real time project?
+* in Rag architecture
+* senetence based classification
+* to understand the context inside the chunks
+
+### types of Vectorization
+1. Count vectorization
+2. TF-IDF Vectorization
+
+1. Count vectorization
+it is ml preprocessing technique which converts sentence base column values into numerical values
+
+how Count vectorization works?
+step 1: selects unique words from the entire samples
+the movie was good
+life is booring
+kapil sharma got placed
+unique words=the,movie,was,good,life,is,booring,kapil sharma, got,placed
+step 2: sort by alphabetical order
+step 3: creating new columns based on unique values
+booring | gooood | got  |   is  |  kapil | life | movie | placed | sharma | the | was |
+
+
+
+
+
+step 4: transforms sentence values into numerical values based on word frequency
+    booring | gooood | got  |   is  |  kapil | life | movie | placed | sharma | the | was |
+1      0    |   1    |  0   |
+2      1    |   0    |  0   |
+3      0    |   0    |  1   |
+step 5: training the model 
+
+Eucledian formula
+d = \sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}
+
+

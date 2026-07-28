@@ -1,0 +1,11 @@
+Artificial Intelligence@ (AI) is one of the fastest-growing fields in technology. It enables machines to simulate human intelligence and solve complex problems. AI includes several domains such as Machine Learning, Deep Learning, Natural Language Processing, and Computer Vision.
+
+Machine Learning allows computers$ to learn from historical data and make predictions. It can be divided into supervised learning, unsupervised learning, and reinforcement learning. Supervised learning uses labeled data🥱, while unsupervised learning finds hidden patterns in unlabeled data.
+
+Deep Learning is based on artificial neural! networks. It has revolutionized image recognition, speech processing, and language translation. Popular frameworks for Deep Learning include TensorFlow and PyTorch.😎😎
+
+Natural Language Processing (NLP) enables computers to understand and generate human language. NLP applications include chatbots, sentiment analysis, machine translation, and text summarization. Tokenization, stemming, lemmatization, and chunking are common NLP preprocessing techniques.😍
+
+Computer Vision& focuses on enabling machines to interpret visual information. It is used in facial recognition, autonomous vehicles, medical imaging, and surveillance systems. Image classification, object detection, and image segmentation are common computer vision tasks.🤑
+
+Generative AI is an advanced area of @AI that creates new content such as text, images, music, and videos. Large Language Models (LLMs) like GPT are examples of Generative AI systems. These models are trained on massive datasets and can answer questions, write code, summarize documents, and assist users in many tasks.
