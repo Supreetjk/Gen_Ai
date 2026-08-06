@@ -273,3 +273,6 @@ Eucledian formula
 d = \sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}
 
 
+what is temperature parameter?
+it is a sampliing parameter that influences how confidently the model takes the next word of the token
+* it helps to handle llm halucination problems
