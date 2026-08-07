@@ -278,4 +278,13 @@ it is a sampliing parameter that influences how confidently the model takes the 
 * it helps to handle llm halucination problems
 always use less than less to ignore imaginary content
 temperature<0.2 or fully ignore use temperture=0.0
-git push origin main
+
+
+# LCEl: 
+what is LCEL?
+it stands for Langchain Expression Language which combines multiple steps through chains with the help of pipe
+("|")
+For example:
+step1: structured prompt
+step2: llm
+step3: output parser
