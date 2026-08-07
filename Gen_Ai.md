@@ -278,3 +278,4 @@ it is a sampliing parameter that influences how confidently the model takes the 
 * it helps to handle llm halucination problems
 always use less than less to ignore imaginary content
 temperature<0.2 or fully ignore use temperture=0.0
+git push origin main
